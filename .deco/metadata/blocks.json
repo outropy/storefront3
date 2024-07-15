@@ -138,5 +138,15 @@
   "/.deco/blocks/Header.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Header/Header.tsx"
+  },
+  "/.deco/blocks/pages-Magic%2520Pge-458085.json": {
+    "name": "Magic Page",
+    "path": "/magic/:slug",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/patropy_loader.json": {
+    "blockType": "loaders",
+    "__resolveType": "commerce/loaders/product/extensions/detailsPage.ts"
   }
 }

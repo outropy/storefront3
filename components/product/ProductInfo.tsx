@@ -21,6 +21,7 @@ function ProductInfo({ page }: Props) {
   if (page === null) {
     throw new Error("Missing Product Details Page Info");
   }
+  console.log(page);
 
   const { breadcrumbList, product } = page;
   const { productID, offers, isVariantOf } = product;
